@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# exclude everything
+data_test/*
+model/*
+indices_test/*
+test_checkpoints/*
+
+# exception to the rule
+!data_test/.gitkeep
+!model/.gitkeep
+!indices_test/.gitkeep
+!test_checkpoints/.gitkeep
+!documentation/.gitkeep
