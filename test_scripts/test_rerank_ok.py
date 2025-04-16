@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from tqcolbert_src.reranking.colbert_batch_reranker import colBERTReRankerBatch
  
 embedding_model_path = "../model/colbert"

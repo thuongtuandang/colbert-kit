@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from tqcolbert_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
 from tqcolbert_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
 from tqcolbert_src.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex

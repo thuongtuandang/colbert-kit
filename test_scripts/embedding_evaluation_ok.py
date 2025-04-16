@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from tqcolbert_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
 from tqcolbert_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
 from tqcolbert_src.embedding.colbert_embedding import colBERTEmbedding
@@ -7,14 +11,15 @@ from tqcolbert_src.evaluating.ir_eval import IREvaluation
 import pandas as pd
 from tqdm import tqdm
 
-eval_name = 'antique_de'
+
+eval_name = 'miracl-de-dev'
 print("Test dataset: ", eval_name)
 eval_data_path = '../data_test/' + f'{eval_name}/'
 query_path = eval_data_path + 'queries.csv'
 doc_path = eval_data_path + 'docs.csv'
 qrel_path = eval_data_path + 'qrels.csv'
 
-text_column = 'translated_text'
+text_column = 'text'
 
 df_queries = pd.read_csv(query_path)
 df_qrels = pd.read_csv(qrel_path)[:10]

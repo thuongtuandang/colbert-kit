@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from tqcolbert_src.reranking.colbert_batch_reranker import colBERTReRankerBatch
 from tqcolbert_src.indexing.bm25.bm_25 import BM25Corpus
 from tqcolbert_src.retrieving.bm25_search import BM25_search
