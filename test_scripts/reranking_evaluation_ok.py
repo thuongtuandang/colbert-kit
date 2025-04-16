@@ -1,7 +1,7 @@
-from test_cb_tdqq.reranking.colbert_batch_reranker import colBERTReRankerBatch
-from test_cb_tdqq.indexing.bm25.bm_25 import BM25Corpus
-from test_cb_tdqq.retrieving.bm25_search import BM25_search
-from test_cb_tdqq.evaluating.ir_eval import IREvaluation
+from tqcolbert_src.reranking.colbert_batch_reranker import colBERTReRankerBatch
+from tqcolbert_src.indexing.bm25.bm_25 import BM25Corpus
+from tqcolbert_src.retrieving.bm25_search import BM25_search
+from tqcolbert_src.evaluating.ir_eval import IREvaluation
 import pandas as pd
 from tqdm import tqdm
 

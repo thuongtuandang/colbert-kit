@@ -1,8 +1,8 @@
-from test_cb_tdqq.retrieving.colbert_search_faiss import colBERTSearchFaiss
-from test_cb_tdqq.indexing.faiss.flat_faiss_index import FlatFaissIndex
-from test_cb_tdqq.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex
-from test_cb_tdqq.indexing.faiss.IVF_faiss_index import IVFFaissIndex
-from test_cb_tdqq.embedding.colbert_embedding import colBERTEmbedding
+from tqcolbert_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
+from tqcolbert_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
+from tqcolbert_src.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex
+from tqcolbert_src.indexing.faiss.IVF_faiss_index import IVFFaissIndex
+from tqcolbert_src.embedding.colbert_embedding import colBERTEmbedding
 import pandas as pd
 
 # Load the csv file

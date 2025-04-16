@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 import json
 import numpy as np
-from test_cb_tdqq.retrieving.faiss_search import FaissSearch
+from tqcolbert_src.retrieving.faiss_search import FaissSearch
 from collections import defaultdict
 from typing import List, Tuple
 

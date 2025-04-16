@@ -1,4 +1,4 @@
-from test_cb_tdqq.reranking.colbert_batch_reranker import colBERTReRankerBatch
+from tqcolbert_src.reranking.colbert_batch_reranker import colBERTReRankerBatch
  
 embedding_model_path = "../model/colbert"
 # embedding_model_path = "google-bert/bert-base-german-cased"

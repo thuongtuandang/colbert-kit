@@ -1,6 +1,6 @@
 import pandas as pd
 import torch
-from test_cb_tdqq.training import ColBERTTrainer
+from tqcolbert_src.training import ColBERTTrainer
 
 # Create simple test dataset
 test_data = [

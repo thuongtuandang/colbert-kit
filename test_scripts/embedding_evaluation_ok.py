@@ -1,9 +1,9 @@
-from test_cb_tdqq.retrieving.colbert_search_faiss import colBERTSearchFaiss
-from test_cb_tdqq.indexing.faiss.flat_faiss_index import FlatFaissIndex
-from test_cb_tdqq.embedding.colbert_embedding import colBERTEmbedding
-from test_cb_tdqq.indexing.bm25.bm_25 import BM25Corpus
-from test_cb_tdqq.retrieving.bm25_search import BM25_search
-from test_cb_tdqq.evaluating.ir_eval import IREvaluation
+from tqcolbert_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
+from tqcolbert_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
+from tqcolbert_src.embedding.colbert_embedding import colBERTEmbedding
+from tqcolbert_src.indexing.bm25.bm_25 import BM25Corpus
+from tqcolbert_src.retrieving.bm25_search import BM25_search
+from tqcolbert_src.evaluating.ir_eval import IREvaluation
 import pandas as pd
 from tqdm import tqdm
 

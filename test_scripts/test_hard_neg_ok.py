@@ -1,5 +1,5 @@
 import pandas as pd
-from test_cb_tdqq.choosing_negatives.choosing_hard_negatives import build_hard_triplets
+from tqcolbert_src.choosing_negatives.choosing_hard_negatives import build_hard_triplets
 
 # Step 1: Sample DataFrame
 data = {

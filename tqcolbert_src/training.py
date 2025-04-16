@@ -1,7 +1,7 @@
 import pandas as pd
 from tqdm import tqdm
-from test_cb_tdqq.utils import get_normalized_token_embeddings, compute_max_similarity
-from test_cb_tdqq.dataloader import TripletDataset
+from tqcolbert_src.utils import get_normalized_token_embeddings, compute_max_similarity
+from tqcolbert_src.dataloader import TripletDataset
 from torch.utils.data import DataLoader
 import torch.optim as optim
 import torch.nn.functional as F

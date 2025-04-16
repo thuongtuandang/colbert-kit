@@ -1,7 +1,7 @@
 import pandas as pd
-from test_cb_tdqq.embedding.sbert_embedding import SBERTEmbedding
-from test_cb_tdqq.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex
-from test_cb_tdqq.retrieving.faiss_search import FaissSearch
+from tqcolbert_src.embedding.sbert_embedding import SBERTEmbedding
+from tqcolbert_src.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex
+from tqcolbert_src.retrieving.faiss_search import FaissSearch
 
 def build_hard_triplets(
     df:pd.DataFrame,
