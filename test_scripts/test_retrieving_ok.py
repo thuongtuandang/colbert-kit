@@ -2,11 +2,11 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from tqcolbert_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
-from tqcolbert_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
-from tqcolbert_src.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex
-from tqcolbert_src.indexing.faiss.IVF_faiss_index import IVFFaissIndex
-from tqcolbert_src.embedding.colbert_embedding import colBERTEmbedding
+from colbert_kit_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
+from colbert_kit_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
+from colbert_kit_src.indexing.faiss.HNSW_faiss_index import HNSWFaissIndex
+from colbert_kit_src.indexing.faiss.IVF_faiss_index import IVFFaissIndex
+from colbert_kit_src.embedding.colbert_embedding import colBERTEmbedding
 import pandas as pd
 
 # Load the csv file

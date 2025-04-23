@@ -2,12 +2,12 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from tqcolbert_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
-from tqcolbert_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
-from tqcolbert_src.embedding.colbert_embedding import colBERTEmbedding
-from tqcolbert_src.indexing.bm25.bm_25 import BM25Corpus
-from tqcolbert_src.retrieving.bm25_search import BM25_search
-from tqcolbert_src.evaluating.ir_eval import IREvaluation
+from colbert_kit_src.retrieving.colbert_search_faiss import colBERTSearchFaiss
+from colbert_kit_src.indexing.faiss.flat_faiss_index import FlatFaissIndex
+from colbert_kit_src.embedding.colbert_embedding import colBERTEmbedding
+from colbert_kit_src.indexing.bm25.bm_25 import BM25Corpus
+from colbert_kit_src.retrieving.bm25_search import BM25_search
+from colbert_kit_src.evaluating.ir_eval import IREvaluation
 import pandas as pd
 from tqdm import tqdm
 

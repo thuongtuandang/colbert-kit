@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import pandas as pd
 import torch
-from tqcolbert_src.training import ColBERTTrainer
+from colbert_kit_src.training import ColBERTTrainer
 
 # Create simple test dataset
 test_data = [
