@@ -16,7 +16,7 @@ If you are using CUDA 12.x, install the version built for CUDA 12:
 
 <pre> pip install colbert-kit[gpu-cu12] </pre>
 
-**Note:** HNSW indexing is currently not supported on GPU in FAISS. GPU acceleration works well for Flat and IVF-based indexes.
+**Note:** HNSW indexing is currently not supported on GPU in FAISS for those versions. GPU acceleration works well for Flat and IVF-based indexes.
 
 # Documentation
 
