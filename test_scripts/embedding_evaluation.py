@@ -50,7 +50,7 @@ embeddings = colbertEmbedIndex.encode(texts)
 # Now, we need to create FAISS index to search for nearest tokens
 index_output_path = "../indices_test/"
 dimension = embeddings.shape[1]
-index_name = 'colbert_antique_de.index'
+index_name = 'colbert_miracl_de.index'
 # Create a flat index
 colbert_index = FlatFaissIndex(index_name=index_name, dimension=dimension, use_gpu=False, index_output_path=index_output_path)
 colbert_index.create_index(embeddings)

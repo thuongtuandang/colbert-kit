@@ -5,7 +5,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from colbert_kit_src.reranking.colbert_batch_reranker import colBERTReRankerBatch
  
 embedding_model_path = "thuongtuandang/german-colbert"
-# embedding_model_path = "google-bert/bert-base-german-cased"
 batchreranker = colBERTReRankerBatch(model_name_or_path=embedding_model_path, device='cpu')
  
 query = "Was ist die Hauptstadt von Frankreich?"
