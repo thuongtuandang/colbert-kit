@@ -1,4 +1,4 @@
-This is our source codes with test scripts the paper "TQColBERT: A model and package for German ColBERT" and the our package tqcolbert.
+This is our source codes with test scripts the paper "A model and package for German ColBERT" and the our package colbert-kit.
 
 # Installation
 
@@ -34,7 +34,7 @@ To run a test script, follow these steps:
 
 # Source codes of the package
 
-The source code for the package is located in the tqcolbert_src folder. This directory contains all core components and detailed parameter definitions for ColBERT-based retrieval.
+The source code for the package is located in the colbert_kit_src folder. This directory contains all core components and detailed parameter definitions for ColBERT-based retrieval.
 
 # Model
 
