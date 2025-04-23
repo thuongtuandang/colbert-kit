@@ -43,7 +43,7 @@ query_ids = df_qrels['query_id'].unique()
 top_k = 100
 
 # Load colBERT
-model_name_or_path = "../model/colbert"
+model_name_or_path = "thuongtuandang/german-colbert"
 
 colbert_reranker_batch = colBERTReRankerBatch(model_name_or_path=model_name_or_path, device="cpu")
 

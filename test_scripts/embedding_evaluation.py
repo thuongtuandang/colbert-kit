@@ -34,7 +34,7 @@ token_to_doc_map_name = 'token_to_doc_map.npy'
 doc_dict_name = 'documents.json' 
 token_to_doc_map_path = '../indices_test/'
 doc_dict_path = '../indices_test/'
-colbert_model_path = '../model/colbert'
+colbert_model_path = 'thuongtuandang/german-colbert'
 
 colbertEmbedIndex = colBERTEmbedding(
     model_name_or_path=colbert_model_path,
@@ -57,7 +57,7 @@ colbert_index.create_index(embeddings)
 
 
 # Load colbert model for embedding
-colbert_model_path = '../model/colbert'
+colbert_model_path = 'thuongtuandang/german-colbert'
 
 colbertSearchFaiss = colBERTSearchFaiss(
     model_name_or_path=colbert_model_path,

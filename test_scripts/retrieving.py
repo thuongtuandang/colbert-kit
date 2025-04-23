@@ -40,7 +40,7 @@ token_to_doc_map_name = 'token_to_doc_map.npy'
 doc_dict_name = 'documents.json' 
 token_to_doc_map_path = '../indices_test/'
 doc_dict_path = '../indices_test/'
-embedding_model_path = '../model/colbert'
+embedding_model_path = 'thuongtuandang/german-colbert'
 # embedding_model_path = "google-bert/bert-base-german-cased"
 
 colbertEmbed = colBERTEmbedding(

@@ -16,7 +16,7 @@ test_df = pd.DataFrame(test_data, columns=["sentence", "positive_sentence", "neg
 test_df.to_csv("../data_test/test_triplets.csv", sep='\t', index=False)
 
 # Load BERT model for testing
-bert_model_name = "../model/colbert"
+bert_model_name = "thuongtuandang/german-colbert"
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 trainer = ColBERTTrainer(
