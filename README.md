@@ -6,15 +6,15 @@ To install the package, you have three options depending on your FAISS and CUDA 
 
 If you are not using CUDA 11.x or 12.x, or if you do not need GPU acceleration for indexing and searching, install the CPU version:
 
-<pre> pip install tqcolbert[cpu] </pre>
+<pre> pip install colbert-kit[cpu] </pre>
 
 If you are using CUDA 11.x and want to enable FAISS GPU support:
 
-<pre> pip install tqcolbert[gpu-cu11] </pre>
+<pre> pip install colbert-kit[gpu-cu11] </pre>
 
 If you are using CUDA 12.x, install the version built for CUDA 12:
 
-<pre> pip install tqcolbert[gpu-cu12] </pre>
+<pre> pip install colbert-kit[gpu-cu12] </pre>
 
 **Note:** HNSW indexing is currently not supported on GPU in FAISS. GPU acceleration works well for Flat and IVF-based indexes.
 
