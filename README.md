@@ -1,4 +1,4 @@
-This is our source codes with test scripts the paper "A model and package for German ColBERT" and the our package colbert-kit.
+This is our source codes with test scripts the paper "A model and package for German ColBERT" and the package colbert-kit.
 
 # Installation
 
